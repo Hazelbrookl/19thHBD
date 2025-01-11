@@ -61,6 +61,9 @@ if __name__ == "__main__":
         audio_file = open('Record.mp3', 'rb')
         audio_bytes = audio_file.read()
         st.audio(audio_bytes, format='audio/mp3')
+        audio_file = open('Record.wav', 'rb')
+        audio_bytes = audio_file.read()
+        st.audio(audio_bytes, format='audio/wav')
         col1, col2 = st.columns(2)
         with open("Drafts.pdf", "rb") as file:
             btn = col1.download_button(
