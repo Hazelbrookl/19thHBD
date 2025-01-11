@@ -10,18 +10,26 @@ if __name__ == "__main__":
         layout="wide",
     )
 
-    st.markdown('<h1 style="color: #db5bcd;">LSW\'s 19th Birthday🎂🎉🎈🎁🎊🥳🕯️🍰🎇💖🎶🎀', unsafe_allow_html=True)
+    st.markdown('<h1 style="color: #db5bcd;text-align: center;white-space: nowrap;">🎉🎂LSW\'s 19th Birthday🎂🎉', unsafe_allow_html=True)
+    st.markdown('<h1 style="color: #db5bcd;text-align: center;">🎂🎉🎈🎁🎊🥳🕯️🍰🎇💖🎶🎀', unsafe_allow_html=True)
 
     tab_words, tab_music = st.tabs(["Words","Music"])
 
     with tab_words:
-        st.header("生日快乐 Happy Birthday!")
-        st.markdown('<h2 style="color: #C71585;">你好</h2>', unsafe_allow_html=True)
-        st.markdown('<h2 style="color: #8A2BE2;">你好</h2>', unsafe_allow_html=True)
-        st.markdown('<h2 style="color: #FF4D94;">你好</h2>', unsafe_allow_html=True)   
-        st.markdown('<h2 style="color: #FF69B4;">你好</h2>', unsafe_allow_html=True)
-        st.markdown('<h2 style="color: #FFC0CB;">你好</h2>', unsafe_allow_html=True)   
-        st.markdown('<h2 style="color: #FFCCDE;">你好</h2>', unsafe_allow_html=True)  
+        st.markdown('<h1 style="text-align: center;white-space: nowrap;">🎈🎊🎈🎊🎈🎊🎈🎊🎈🎊🎈🎊🎈🎊🎈', unsafe_allow_html=True)
+        st.markdown('<h2 style="text-align: center;white-space: pre;">生日快乐 Happy Birthday!', unsafe_allow_html=True)
+        st.markdown('<div style="color: #FFCCDE;text-align: center">因为知道你过生日的时候就回家去了，所以琢磨了一下，想到可以稍微用上一点专业技能，\
+                    弄个可以远程给你的小惊喜。于是草草写了这个网页，很丑很简陋，但是能在网络上永久地留下一小片空间，也算有些意思</div>', unsafe_allow_html=True)
+        st.markdown('<div style="color: #FFC0CB;text-align: center">前几天恰巧看了一下日历，发现今年你的阳历和阴历生日是同一天。阴历虽然19年就轮一圈，但是大部分时候都会偏差一两天，\
+                    我翻了一下只有跟你前后几个月出生的人正好日子能赶到一起，而且38、57岁的时候也都赶上了，还挺幸运的，我好像要76岁才能赶上，所以一定要好好庆祝啊</div>', unsafe_allow_html=True)
+        st.markdown('<div style="color: #FF69B4;text-align: center">期末周的时间是够赶的，刚回去这两天肯定还累得慌吧。这个学期下来感觉你整个就是很辛苦，不停在忙各种事情，真得好好歇歇。\
+                    在学校就是这样，每天累呼呼的，精神状态很不稳定的同时心情又忽上忽下的哈哈哈哈哈，不过后面会好起来的，累和烦在所难免，但会把它们甩开之后就很爽很开心😁</div>', unsafe_allow_html=True)   
+        st.markdown('<div style="color: #FF4D94;text-align: center">之前好几次已经感觉到你归心似箭了，确实回去有家人和好多朋友的感觉好幸福😿我现在很多朋友都出国了，想找都找不到什么人，\
+                    以前成天一起玩的时候从来没想到有天会这样，所以家人也好朋友也好，趁着现在一定要好好珍惜，多见多玩😭😭😭</div>', unsafe_allow_html=True)
+        st.markdown('<div style="color: #8A2BE2;text-align: center">点开上面的Music去听一下里面的歌！之前虽然给过你个小礼物，但今天还是准备点东西，正好有一丝丝灵感，就胡乱写了个曲子出来，\
+                    结果这两天又感冒，降好多key还是够呛，就凑合听吧！写完感觉好像比较幼稚，不知道你会不会喜欢哈哈哈</div>', unsafe_allow_html=True)   
+        st.markdown('<div style="color: #C71585;text-align: center">最后，祝你生日快乐，19岁的每天都有开心的事发生！</div>', unsafe_allow_html=True)  
+        st.markdown('<h1>🥳🕯️🍰', unsafe_allow_html=True)
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">🔥                              🔥         </h4>', unsafe_allow_html=True)
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">|                                   |         </h4>', unsafe_allow_html=True)
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">🔴🔴            🔵🔵🔵🔵🔵</h4>', unsafe_allow_html=True) 
@@ -50,12 +58,12 @@ if __name__ == "__main__":
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: nowrap;font-size: 6pt">            ⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h4>', unsafe_allow_html=True) 
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: nowrap;font-size: 6pt">                 ⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h4>', unsafe_allow_html=True) 
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: nowrap;font-size: 6pt">                        ⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪</h4>', unsafe_allow_html=True) 
-        st.markdown('<div style="color: #FFCCDE;text-align: center;">你好</h4>', unsafe_allow_html=True) 
-        st.markdown('<div style="color: #FFCCDE;text-align: center;">你好</h4>', unsafe_allow_html=True) 
-        st.markdown('<div style="color: #FFCCDE;text-align: center;">你好</h4>', unsafe_allow_html=True)   
+        st.markdown('<h1>🎁', unsafe_allow_html=True)
+        st.image("pic.jpg", width=200)
 
     with tab_music:
-        st.header("生日歌 Song for you")
+        st.markdown('<h1 style="color: #db5bcd;text-align: center;white-space: nowrap;">🎶🎇🎶🎇🎶🎇🎶🎇🎶🎇🎶🎇🎶🎇🎶', unsafe_allow_html=True)
+        st.markdown('<h2 style="text-align: center;white-space: pre;">生日歌 Song for you', unsafe_allow_html=True)
 
         audio_file = open('Record.wav', 'rb')
         audio_bytes = audio_file.read()
@@ -65,15 +73,15 @@ if __name__ == "__main__":
             btn = col1.download_button(
                 label=f"Download drafts",
                 data=file,
-                file_name="19th&1st.pdf",
+                file_name="Light_Shines_Wind_Blows.pdf",
                 mime="application/pdf"
             )
         with open("Record.mp3", "rb") as file:
             btn = col2.download_button(
                 label=f"Download mp3",
                 data=file,
-                file_name="HBD.mp3",
-                mime="audio/mp3"  # M4A文件的MIME类型
+                file_name="19th&1stHBD.mp3",
+                mime="audio/mp3"
             )
 
         st.markdown('<div style=\'text-align: center;\'>夜只是保护色 仍期盼光 几秒钟</div>', unsafe_allow_html=True)
