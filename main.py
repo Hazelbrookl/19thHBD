@@ -29,7 +29,7 @@ if __name__ == "__main__":
         st.markdown('<div style="color: #FF4D94;text-align: center">之前好几次已经感觉到你归心似箭了，确实回去有家人和好多朋友的感觉好幸福😿我现在很多朋友都出国了，想找都找不到什么人，\
                     以前成天一起玩的时候从来没想到有天会这样，所以家人也好朋友也好，趁着现在一定要好好珍惜，多见多玩😭😭😭</div>', unsafe_allow_html=True)
         st.markdown('<h1 style="text-align: center;">', unsafe_allow_html=True)
-        st.markdown('<div style="color: #8A2BE2;text-align: center">点开上面的<span style="color: #8A2BE2;font-size: 28px;font-weight: bold;">Music</span>去听一下里面的歌！之前虽然给过你个小礼物，但今天还是准备点东西，正好有一丝丝灵感，就胡乱写了个曲子出来，\
+        st.markdown('<div style="color: #8A2BE2;text-align: center">点开上面的<span style="color: #db5bcd;font-size: 28px;font-weight: bold;">Music</span>去听一下里面的歌！之前虽然给过你个小礼物，但今天还是准备点东西，正好有一丝丝灵感，就胡乱写了个曲子出来，\
                     结果这两天又感冒，降好多key还是够呛，就凑合听吧！写完感觉好像比较幼稚，不知道你会不会喜欢哈哈哈</div>', unsafe_allow_html=True)   
         st.markdown('<h1 style="text-align: center;">', unsafe_allow_html=True)
         st.markdown('<div style="color: #C71585;text-align: center">最后，祝你生日快乐，19岁的每天都有开心的事发生！</div>', unsafe_allow_html=True)  
