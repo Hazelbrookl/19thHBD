@@ -28,7 +28,6 @@ if __name__ == "__main__":
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">🔴🔴            🔵                     🔵</h4>', unsafe_allow_html=True) 
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">🔴🔴            🔵                     🔵</h4>', unsafe_allow_html=True) 
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">🔴🔴            🔵🔵🔵🔵🔵</h4>', unsafe_allow_html=True) 
-        st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">🔴🔴            🔵🔵🔵🔵🔵</h4>', unsafe_allow_html=True) 
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">🔴🔴                                     🔵</h4>', unsafe_allow_html=True) 
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">🔴🔴                                     🔵</h4>', unsafe_allow_html=True) 
         st.markdown('<div style="color: #FFCCDE;text-align: center;white-space: pre;font-size: 6pt">🔴🔴            🔵🔵🔵🔵🔵</h4>', unsafe_allow_html=True)  
