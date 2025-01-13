@@ -77,14 +77,14 @@ if __name__ == "__main__":
             btn = col1.download_button(
                 label=f"Download drafts",
                 data=file,
-                file_name="Light_Shines_Wind_Blows.pdf",
+                file_name="19th&1stHBD.pdf",
                 mime="application/pdf"
             )
         with open("Record.mp3", "rb") as file:
             btn = col2.download_button(
                 label=f"Download mp3",
                 data=file,
-                file_name="19th&1stHBD.mp3",
+                file_name="Light_Shines_Wind_Blows.mp3",
                 mime="audio/mp3"
             )
 
