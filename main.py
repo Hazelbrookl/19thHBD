@@ -68,6 +68,7 @@ if __name__ == "__main__":
     with tab_music:
         st.markdown('<h1 style="color: #db5bcd;text-align: center;white-space: nowrap;">🎶🎇🎶🎇🎶🎇🎶🎇🎶🎇🎶🎇🎶🎇🎶', unsafe_allow_html=True)
         st.markdown('<h2 style="text-align: center;white-space: pre;">生日歌 Song for you', unsafe_allow_html=True)
+        st.markdown('<h4 style="text-align: center;white-space: pre;">Light Shines Wind Blows', unsafe_allow_html=True)
 
         audio_file = open('Record.wav', 'rb')
         audio_bytes = audio_file.read()
